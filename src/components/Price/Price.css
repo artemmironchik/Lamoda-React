@@ -1,0 +1,31 @@
+.price-container {
+    grid-area: price;
+}
+
+.price-text {
+    padding: 5px 15px;
+    border: 1px solid #000000;
+}
+
+.price-text p {
+    margin: 0;
+}
+
+.invalid {
+    color: red
+}
+
+.input-number-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    background-color: #f5f5f5;
+}
+
+.input-number-container input {
+    width: 30%;
+}
+
+.input-number-container p {
+    margin: 0 10px;
+}

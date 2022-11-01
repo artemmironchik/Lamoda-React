@@ -1,0 +1,6 @@
+.search-input {
+    grid-area: search;
+    display: grid;
+    width: 1fr;
+    padding: 5px 10px;
+}

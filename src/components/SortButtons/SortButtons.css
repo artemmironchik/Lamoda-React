@@ -1,0 +1,17 @@
+.buttons-container {
+    grid-area: buttons;
+    display: grid;
+    grid-template: 1fr / max-content max-content max-content;
+    grid-gap: 10px;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid #000000;
+    padding: 10px 15px;
+    background-color: #ffffff;
+}
+
+.active {
+    background-color: #f5f5f5;
+}

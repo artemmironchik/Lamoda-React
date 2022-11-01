@@ -1,0 +1,22 @@
+.colors-container {
+    grid-area: colors;
+    width: 146px;
+}
+
+.colors-text, .list-of-colors {
+    padding: 5px 15px;
+}
+
+.colors-text {
+    border: 1px solid #000000;
+}
+
+.colors-text p {
+    margin: 0;
+}
+
+.list-of-colors {
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5;
+}
